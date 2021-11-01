@@ -15,18 +15,19 @@ toc:
   enable: true
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
+  demoapi1: https://api.redoc.ly/registry/pheo-org/demoapi1/v1/bundle/master/openapi.yaml
+  demoapi2: https://api.redoc.ly/registry/pheo-org/demoapi2/2021-11-2/bundle/master/openapi.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
   - https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700&display=swap
 #analytics:
-  # ga:
-  # note that GA doesn't work in the development environment
-  #  trackingId: UA-45997213-1
+# ga:
+# note that GA doesn't work in the development environment
+#  trackingId: UA-45997213-1
 #scripts:
 #  - ./static/intercom.js
 nav:
-
   - label: Training exercises
     page: developer-portal/index.md
 
@@ -42,11 +43,11 @@ footer:
     - group: Legal
       items:
         - label: Terms of Use
-          href: 'https://redoc.ly/subscription-agreement/'
+          href: "https://redoc.ly/subscription-agreement/"
         - label: Privacy Notice
-          href: 'https://redoc.ly/privacy-notice/'
+          href: "https://redoc.ly/privacy-notice/"
         - label: Cookie Notice
-          href: 'https://redoc.ly/cookie-notice/'
+          href: "https://redoc.ly/cookie-notice/"
     - group: Support
       items:
         - label: FAQ

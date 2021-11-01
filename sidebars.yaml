@@ -1,7 +1,7 @@
 training:
   - page: developer-portal/index.md
   - group: Training exercises
-    expanded: true
+    expanded: false
     pages:
       - label: Setup
         page: developer-portal/setup.md
@@ -42,9 +42,17 @@ training:
     expanded: false
     pages:
       - page: openapi/reference.page.yaml/*
+  - group: DemoAPI 1 Ref
+    expanded: true
+    pages:
+      - page: openapi/demoapi1.page.yaml/*
+  - group: DemoAPI 2 Ref
+    expanded: true
+    pages:
+      - page: openapi/demoapi2.page.yaml/*
 
   - group: Admin
-    expanded: true
+    expanded: false
     pages:
       - group: Routine
         expanded: true

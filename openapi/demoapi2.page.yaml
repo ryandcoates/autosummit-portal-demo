@@ -1,0 +1,8 @@
+type: reference-docs
+definitionId: demoapi2
+settings:
+  generateCodeSamples:
+    languages:
+      - lang: curl
+      - lang: C#
+      - lang: JavaScript

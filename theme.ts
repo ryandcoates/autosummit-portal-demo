@@ -15,7 +15,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: '#617AAB',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -87,8 +87,8 @@ export const theme = {
     //   contrastText: 'white'
     // },
     // footer: {
-      // main: ({ colors }) => colors.primary.main,
-      // contrastText: 'white'
+    // main: ({ colors }) => colors.primary.main,
+    // contrastText: 'white'
     // },
   },
 
