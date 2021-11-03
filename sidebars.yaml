@@ -50,6 +50,10 @@ training:
     expanded: true
     pages:
       - page: openapi/demoapi2.page.yaml/*
+  - group: DemoAPI 3 Ref
+    expanded: true
+    pages:
+      - page: openapi/demoapi3.page.yaml/*
 
   - group: Admin
     expanded: false

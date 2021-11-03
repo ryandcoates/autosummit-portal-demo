@@ -1,0 +1,8 @@
+type: reference-docs
+definitionId: demoapi3
+settings:
+  generateCodeSamples:
+    languages:
+      - lang: C#
+      - lang: Python
+      - lang: Go

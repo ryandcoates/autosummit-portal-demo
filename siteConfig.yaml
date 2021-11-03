@@ -17,6 +17,7 @@ oasDefinitions:
   petstore: ./openapi/petstore.yaml
   demoapi1: https://api.redoc.ly/registry/pheo-org/demoapi1/v1/bundle/master/openapi.yaml
   demoapi2: https://api.redoc.ly/registry/pheo-org/demoapi2/2021-11-2/bundle/master/openapi.yaml
+  demoapi3: https://api.redoc.ly/registry/pheo-org/demoapi3/v1/bundle/master/openapi.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
